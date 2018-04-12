@@ -9,7 +9,7 @@ export default ChildComponent => {
         case false:
           return <Redirect to="/" />;
         case null:
-          return <div>Loading ...</div>;
+          return <div>Loading...</div>;
         default:
           return <ChildComponent {...this.props} />;
       }
